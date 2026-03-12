@@ -9,16 +9,13 @@ project:
     - "*.html"
   render:
     - "index.qmd"
-  output-dir: docs
-    
+
 format:
   insee-clair-revealjs: default
-    
-    
+
 header-includes: |
   <link rel="icon" type="image/png" sizes="32x32" href="_extensions/insee-clair/ressources/insee_embleme_couleurs_RVB.svg">
 include-after-body: ["modulesCompl/footer.html"]
-    
 embed-resources: true
 df-print: paged
 lang: "fr"
@@ -44,20 +41,22 @@ code-summary: "Code"
 code-copy: true
 highlight-style: atom-one
 
-menu: {
-  side: 'left',
-  width: 'wide',
-  markers: true,
-  transitions: true,
-  custom: [
-      {
-        title: 'Plugins',
-        icon: '<i class="fa-solid fa-circle-info"></i>',
-        src: 'modulesCompl/customMenu.html'
-      }
-    ]
-}
-  
+menu:
+  {
+    side: "left",
+    width: "wide",
+    markers: true,
+    transitions: true,
+    custom:
+      [
+        {
+          title: "Plugins",
+          icon: '<i class="fa-solid fa-circle-info"></i>',
+          src: "modulesCompl/customMenu.html",
+        },
+      ],
+  }
+
 width: 1920
 height: 1080
 
