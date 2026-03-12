@@ -29,16 +29,20 @@ custom-toc: true
 
 Solution :
 
-- faire du site <ssphub.netlify.app> une [**vitrine**]{.blue2} des projets novateurs
+- un réseau pour [__tous les agents__]{.blue2} (chefs ou pas, experts ou pas) du SSP ;
 
-- une newsletter
+- faire du site [ssphub.netlify.app](https://ssphub.netlify.app/) :
+    - une [**vitrine**]{.blue2} des projets novateurs ;
+    - un centre de ressources ;
+    - un site de blog ;
+    - un lieu de stockage de la connaissance (ateliers, replay, infolettres).
 
-- Pour [__tous les agents__]{.blue2} (chefs ou pas) du SSP
+- une newsletter du réseau pour le faire vivre (postée aussi sur le réseau).
 
 
-# La refonte du site
+# La refonte du site en cours
 
-[**Objectifs : **]
+## Objectifs
 
 - Inclure les projets innovants ;
   - avoir une page par projet afin de visibiliser le travail du SSP, notamment vis à vis d'Eurostat
@@ -51,10 +55,13 @@ Solution :
 - Décommissionner les anciens sites du SSPLab ([ici](https://ssplab.lab.sspcloud.fr/) et [le statoscope](https://statoscope.wordpress.com/)).
 
 
-# Outils mis en place pour automatiser la gestion du réseau
+# Les outils
+
+## L'automatisation partielle de la gestion du réseau
 
 Principalement deux outils, reposant sur Grist et Tchap :
-- un annuaire du réseau pour s'inscrire et se désinscrire (environ 650 personnes directement inscrites, 350 de par leur fonction) ;
+
+- un [annuaire du réseau](https://grist.numerique.gouv.fr/o/ssphub/iTFX7gryL8jK/Annuaire) pour s'inscrire et se désinscrire (environ 650 personnes directement inscrites, 350 de par leur fonction) ;
 - des boites à outils :
   - le repo [ssphub_veille](https://github.com/SSPHub/ssphub_veille) pour automatiser partiellement la veille ;
   - le repo [newsletter_tools](https://github.com/SSPHub/newsletter_tools) pour automatiser certaines étapes d'envoi de la veille :
@@ -78,19 +85,29 @@ Principalement deux outils, reposant sur Grist et Tchap :
 
 ![](img/showtime.png)
 
+# Idées suivantes
 
-# Conclusions {#pageDeFin .titreTransparent .unnumbered .backgroundPageFinale}
+## Comment aider ?
 
-:::: {.columns .coordonneesFinales}
+- relire les projets qui vous ont été attribués ;
 
-::: {.column .coordonnees width=50%}
-- Nicolas TOULEMONDE
-- SSPLab
-- DMCSI
-- nicolas.toulemonde@insee.Fr
-:::
+- alimenter le site avec des posts de blog (qui sont toujours courts ! ) ;
 
-::: {.column .droite width=40%}
-:::
+- des volontaires pour la veille ? (💓 Laura pour la dernière)
 
-::::
+- trouver des idées d'atelier ;
+
+- faire vivre le réseau quoi, en un mot.
+
+
+## Ce qui viendra peut être :
+
+- Utilisation de bot sur Tchap pour :
+    - extraire les informations de la veille
+    - poster la newsletter
+- Utilisation d'agents pour automatiser le remplissage du Grist de la veille :
+    - trouver le titre des articles ;
+    - résumer les articles ;
+    - les tagguers.
+- Utilisation d'IA pour rédiger une v1 de l'infolettre à partir d'un squelette donné par l'utilisateur
+
