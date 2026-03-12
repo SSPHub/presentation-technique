@@ -67,6 +67,8 @@ rsconnect/
 
 **/*.quarto_ipynb
 
+docs/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
