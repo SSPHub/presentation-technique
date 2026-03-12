@@ -55,6 +55,7 @@ Solution :
 - Décommissionner les anciens sites du SSPLab ([ici](https://ssplab.lab.sspcloud.fr/) et [le statoscope](https://statoscope.wordpress.com/)).
 
 
+
 # Les outils
 
 ## L'automatisation partielle de la gestion du réseau
