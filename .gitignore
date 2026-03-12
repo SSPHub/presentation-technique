@@ -6,7 +6,7 @@
 *.xls
 *xlsx
 *.html
-!docs/*
+docs/*
 !_extensions/insee-clair/*.html
 *_files/
 *.tex
@@ -17,6 +17,9 @@
 *.odt
 _output/
 !modulesCompl/*
+/.quarto/
+/_site/
+**/*.quarto_ipynb
 
 # History files
 .Rhistory
@@ -65,9 +68,6 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-**/*.quarto_ipynb
-
-docs/
 
 
 # Byte-compiled / optimized / DLL files
