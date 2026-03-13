@@ -63,6 +63,8 @@ Solution :
 Principalement deux outils, reposant sur Grist et Tchap :
 
 - un [annuaire du réseau](https://grist.numerique.gouv.fr/o/ssphub/iTFX7gryL8jK/Annuaire) pour s'inscrire et se désinscrire (environ 650 personnes directement inscrites, 350 de par leur fonction) ;
+  - l'annuaire comprend notamment un [formulaire](https://grist.numerique.gouv.fr/o/ssphub/forms/jSjAV3L2F8mmiRVuVEpfF7/103) pour s'inscrire automatiquement ;
+  - possibilité de voir sa "fiche" (en fait juste la ligne de la table avec son adresse) grâce aux permissions avancées de Grist ;
 - des boites à outils :
   - le repo [ssphub_veille](https://github.com/SSPHub/ssphub_veille) pour automatiser partiellement la veille ;
   - le repo [newsletter_tools](https://github.com/SSPHub/newsletter_tools) pour automatiser certaines étapes d'envoi de la veille :
