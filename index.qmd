@@ -103,6 +103,7 @@ Principalement deux outils, reposant sur Grist et Tchap :
 
 ## Ce qui viendra peut être :
 
+- étoffer la documentationt technique (site et boites à outils)
 - Utilisation de bot sur Tchap pour :
     - extraire les informations de la veille
     - poster la newsletter
